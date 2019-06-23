@@ -1,0 +1,27 @@
+{"properties": [
+  {
+    "name": "monitor.idworker.datacenter-id",
+    "type": "java.lang.Integer",
+    "description": "分布式id生成器配置：数据中心id（0～31）"
+  },
+  {
+    "name": "monitor.idworker.worker-id",
+    "type": "java.lang.Integer",
+    "description": "分布式id生成器配置：工作id（0～31）"
+  },
+  {
+    "name": "monitor.web.allow",
+    "type": "java.lang.String",
+    "description": "允许访问web接口的远程ip（逗号分隔）"
+  },
+  {
+    "name": "monitor.web.api-key",
+    "type": "java.lang.String",
+    "description": "远程主机访问web api的密钥"
+  },
+  {
+    "name": "monitor.watch-process",
+    "type": "java.lang.String",
+    "description": "监控进程（进程名逗号分隔）"
+  }
+]}
