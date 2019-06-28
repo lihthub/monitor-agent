@@ -6,7 +6,8 @@ create table `monitor_server` (
 	`os_name` varchar(50) not null comment '服务器操作系统',
 	`description` varchar(50) comment '服务器描述',
 	`create_time` datetime not null comment '创建时间',
-	`modify_time` timestamp not null default current_timestamp comment '修改时间'
+	`modify_time` timestamp not null default current_timestamp
+	   on update current_timestamp comment '修改时间'
 ) default charset=utf8 comment '监控服务器信息';
 
 create table `monitor_cpu_percent` (
